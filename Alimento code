@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro kg, dias
+
+	escreva ("Informe a quantidade de alimento (em KG): ")
+	leia (kg)
+	limpa ()
+
+     kg *= 1000
+	dias = kg / 50
+
+	escreva ("O Alimento será consumido em ", dias, " dias.")
+	
+	}
+}

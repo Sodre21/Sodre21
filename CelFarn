@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real celciu, faren, A
+
+	escreva ("Digite a temperatura em Celcius : \n")
+	leia (celciu)
+	limpa()
+
+	faren = celciu * 1.8 + 32
+
+	escreva ("A temperatura em Fahrenheit é: ", faren)
+	
+	}
+}

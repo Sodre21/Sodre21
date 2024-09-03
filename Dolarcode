@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real dolar, reau
+
+	escreva ("Digite o valor em reais: R$ ")
+	leia (reau)
+	
+	limpa ()
+
+	
+
+	dolar = reau / 5.62
+
+	escreva ("Seu valor em dólar é:", dolar," $")
+	
+	}
+}
